@@ -1,0 +1,123 @@
+
+body{ font-family:Arial, Helvetica, sans-serif !important; color:#333;}
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+.top-head{display: block;border-bottom: 1px solid #f2f2f2;}
+.top-head h1{display:inline-block; font:bold 20px/25px Arial, Helvetica, sans-serif;margin:15px;}
+.top-icons{display: inline-block;text-align: right;float: right;line-height: 50px;margin-right: 20px;}
+.top-icons span{margin-left: 10px; font:normal 12px/18px Arial, Helvetica, sans-serif; }
+.top-head:after{content: "";display: table;clear: both;}
+.search{margin: 5px 15px;}
+.bottom-head nav{margin: 15px; text-transform: uppercase;}
+ul.main-nav{list-style: none;padding: 0; margin: 0;}
+ul.main-nav a{color:#415575;}
+ul.main-nav li.activenav a{color:#fff!important;}
+ul.main-nav li{display: inline-block;width: 32%;font-size: 14px;line-height: 24px;font-weight: bold;}
+ul.main-nav li:nth-child(2n){text-align: center;width: 35%;}
+ul.main-nav li:last-child{text-align: right;}
+.main-nav-links .activenav{color: #fff;font-weight: bold;}
+.hide{display: none;}
+.activenavhead{background:#1b3359;color:#fff;}
+.activenavhead a{color:#fff;}
+.subnav{background:#1b3359;color:#fff;}
+.subnav a{color:#fff;}
+.bottom-head input{background:#161f3c!important;}
+.sub-topnav{margin: 0;}
+.sub-topnav ul.level-1{list-style: none;padding: 0; margin: 20px 0 ;text-transform: uppercase;}
+.sub-topnav ul.level-2{list-style: none;padding: 0; margin: 20px 0;text-transform: none;font-size: 13px;}
+.stylish-input-group .input-group-addon{background: #161f3c!important; border:none; }
+.stylish-input-group .form-control{border-right:0; box-shadow:0 0 0; border-color:transparent;}
+.stylish-input-group button{ border:0; background:transparent;color:#fff;}
+.headline{ font:bold 20px/25px Arial, Helvetica, sans-serif; margin:15px 0px; display: block;}
+.explore{  background-color: #1B3359; border-radius: 0 !important; color: #fff !important; border: none; text-decoration: none; height: 40px; font-size: 16px; letter-spacing: 1px; line-height: 40px; padding: 0 20px !important; margin-top: 15px; font-weight: 500; cursor: pointer;	overflow: hidden; text-align: center;}
+.space{ margin:50px 0 0 0;}
+.space .headline{margin: 8px 0px;}
+.space .col-xs-12{ margin-bottom:40px;}
+.pro-border{border:1px solid #f2f2f2}
+.product .col-xs-6:nth-child(3){ clear:both;}
+.product .col-xs-6.col-md-3:nth-child(3) {clear:inherit;}
+.product .col-xs-6{ margin-bottom:10px;}
+.product .headline{font: bold 14px/16px Arial, Helvetica, sans-serif; margin: 5px 0px;}
+.product p{ font-size: 13px; line-height: 18px;}
+
+
+
+.home-newsletter .single .form-control {height: 40px; background: rgba(255, 255, 255, 0.6);border-color:#1B3359;border-radius: 0; }
+.home-newsletter .single .form-control:focus {box-shadow: none;border-color: #243c4f; border-radius: 0; }
+.home-newsletter .single .btn {min-height: 40px; background:#1B3359; color: #fff; border-radius: 0;}
+
+.footer_social_links a {display: inline-block; text-decoration: none; width: 30px; height: 30px; overflow: hidden; text-indent: -999999px;
+    background: url(../image/social-icons.png) no-repeat; background-size: cover;  margin:20px 10px 0 0;}
+.footer_social_links a.icon-instagram { background-position: 0 -31px;}
+.footer_social_links a.icon-youtube { background-position: 0 0;}
+
+.footer-links{ padding:0px; margin:0px; margin-top:20px; padding-top:10px;display: flex; flex-wrap: wrap;}
+.footer-links li{ list-style-type:none; margin-bottom:5px; display: inline-block; border-right: 1px solid #d6d6d6; padding-right: 5px;}
+.footer-links li:last-child{border: 0;}
+.footer-links li a{ font:bold 13px/19px Arial, Helvetica, sans-serif;  color: #333;}
+.footer_cards { margin: 20px 0;}
+.fotoer-link-item{padding: 10px 0; border-top: 1px solid #edeef2; border-bottom: 1px solid #edeef2;}
+.footer-links .order1{order: 1; text-align: center;  }
+.footer-links .order2{order: 2; text-align: left;}
+.footer-links .order3{order: 3; text-align: center;}
+.footer-links .order4{order: 4;text-align: right;}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+.top-head{display: block;border-bottom: 1px solid #f2f2f2;}
+.top-head h1{display:inline-block; font:bold 20px/25px Arial, Helvetica, sans-serif;margin:15px;}
+.top-icons{display: inline-block;text-align: right;float: right;line-height: 50px;margin-right: 20px;}
+.top-icons span{margin-left: 10px; font:normal 12px/18px Arial, Helvetica, sans-serif; }
+.top-head:after{content: "";display: table;clear: both;}
+.search{margin: 5px 15px;}
+.bottom-head nav{margin: 15px; text-transform: uppercase;}
+ul.main-nav{list-style: none;padding: 0; margin: 0;}
+/*ul.main-nav a{color:#415575;}*/
+ul.main-nav li.activenav a{color:#fff;}
+ul.main-nav li{display: inline-block;width: 32%;font-size: 12px;}
+ul.main-nav li:nth-child(2n){width: 32%;}
+ul.main-nav li:last-child{text-align: right;}
+
+.activenavhead{background:#1b3359;color:#fff;}
+.activenavhead a{color:#fff;}
+.subnav{background:#1b3359;color:#fff;}
+.subnav a{color:#fff;}
+.bottom-head input{background:#253053!important;}
+.sub-topnav{margin: 0;}
+.sub-topnav ul.level-1{list-style: none;padding: 0; margin: 20px 0 ;text-transform: uppercase;}
+.sub-topnav ul.level-2{list-style: none;padding: 0; margin: 20px 0;text-transform: none;font-size: 13px;}
+.stylish-input-group .input-group-addon{background: #253053!important; border:none; }
+.stylish-input-group .form-control{border-right:0; box-shadow:0 0 0; border-color:transparent;}
+.stylish-input-group button{ border:0; background:transparent;color:#fff;}
+.headline{ font:bold 20px/25px Arial, Helvetica, sans-serif; margin:15px 0px; display: block;}
+.explore{  background-color: #1B3359; border-radius: 0 !important; color: #fff !important; border: none; text-decoration: none; height: 40px; font-size: 16px; letter-spacing: 1px; line-height: 40px; padding: 0 20px !important; margin-top: 15px; font-weight: 500; cursor: pointer;	overflow: hidden; text-align: center;}
+.space{ margin:50px 0 0 0;}
+.space .headline{margin: 8px 0px;}
+.space .col-xs-12{ margin-bottom:40px;}
+
+.product .col-xs-6:nth-child(3){ clear:both;}
+.product .col-xs-6{ margin-bottom:10px;}
+.product .headline{font: bold 14px/16px Arial, Helvetica, sans-serif; margin: 5px 0px;}
+.product p{ font-size: 13px; line-height: 18px;}
+
+
+
+.home-newsletter .single .form-control {height: 40px; background: rgba(255, 255, 255, 0.6);border-color:#1B3359;border-radius: 0; }
+.home-newsletter .single .form-control:focus {box-shadow: none;border-color: #243c4f; border-radius: 0; }
+.home-newsletter .single .btn {min-height: 40px; background:#1B3359; color: #fff; border-radius: 0;}
+.footer_social_links{margin-bottom: 15px;}
+.footer_social_links a {display: inline-block; text-decoration: none; width: 30px; height: 30px; overflow: hidden; text-indent: -999999px;
+    background: url(https://www.etonshirts.com/skin/frontend/rwd/eton/images/social-icons.png) no-repeat; background-size: cover;  margin:20px 10px 0 0;}
+.footer_social_links a.icon-instagram { background-position: 0 -31px;}
+.footer_social_links a.icon-youtube { background-position: 0 0;}
+
+.footer-links{ padding:0px; margin:0px; border-top: 1px solid #edeef2; border-bottom: 1px solid #edeef2; margin-top:20px; padding-top:10px;}
+.footer-links li{ list-style-type:none; margin-bottom:5px; border: 0; display: block;}
+.footer-links li a{ font:bold 13px/19px Arial, Helvetica, sans-serif;  color: #333;}
+.footer_cards { margin: 20px 0;}
+.footer-links .text-right,.footer-links .text-left{text-align: center;}
+.footer-links ul{padding:0;}
+.footer-links{display: block !important;}
+.footer-links .order1, .footer-links .order2, .footer-links .order3, .footer-links .order4{text-align: center;}
+}
